@@ -1,0 +1,128 @@
+body{
+    background-color: rosybrown;
+}
+.body{
+    background-color: hsl(207, 100%, 98%);
+    width: 75rem;
+    margin: 20px auto;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.button{
+    margin-top: 20px;
+    margin-right: 30px;
+}
+h3{
+    text-transform: capitalize;
+    color: hsl(192, 100%, 9%);
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    color: hsl(192, 100%, 9%);
+    font-family:'Open Sans';
+}
+.content{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+button{
+    width: 11rem;
+    height: 2rem;
+    border-radius: 20px;
+    background-color: hsl(322, 100%, 66%);
+    color: hsl(207, 100%, 98%);
+    border-style: none;
+}
+button:hover{
+    background-color: hsl(321, 100%, 78%);
+}
+.hey{
+    color: hsl(322, 100%, 66%);
+    background-color: hsl(207, 100%, 98%);
+    border: 1px solid hsl(322, 100%, 66%);
+}
+.first{
+    margin-left: 32rem;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 8rem;
+}
+.screen{
+    padding: 0 80px;
+    margin-bottom: 6rem;
+}
+.header{
+    margin-bottom: 6rem;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 8rem;
+}
+.text{
+    width: 36rem;
+    padding: 0 10rem;
+    text-align: center;
+}
+.svg{
+    width: 36rem;
+    padding: 0 10rem;
+}
+.third{
+    text-align: center;
+    margin-bottom: 15rem;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 20rem;
+}
+.fourth{
+    width: 36rem;
+    padding: 3rem 6rem;
+}
+.fifth{
+    width: 36rem;
+    padding: 3rem 6rem;
+}
+.color{
+    color: hsl(207, 100%, 98%);
+}
+.submit{
+    border-radius: 5px;
+    width: 6rem;
+    height: 24px;
+    border-style: none;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.icon{
+    margin-left: 6rem;
+    margin-bottom: 10rem;
+}
+.fa{
+    padding-right: 2rem;
+    color: white;
+}
+.fa-phone{
+    margin-top: 20px;
+}
+.footer{
+    background-color: black;
+}
