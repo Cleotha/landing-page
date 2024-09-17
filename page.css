@@ -3,8 +3,8 @@ body{
 }
 .body{
     background-color: hsl(207, 100%, 98%);
-    width: 75rem;
-    margin: 20px auto;
+    display: block;
+    margin: auto;
 }
 .heading{
     display: flex;
@@ -74,10 +74,9 @@ button:hover{
     justify-content: space-around;
     margin-bottom: 8rem;
     padding-top: 8rem;
-    height: 26rem;
-    width: 75rem;
+    min-height: 26rem;
     background: url('top1.svg') bottom no-repeat, url('top2.svg') top no-repeat;
-    background-size: 75rem 3rem;
+    background-size: 100% 6%;
     background-color: hsl(240, 1%, 87%);
 }   
 .flow{
@@ -89,12 +88,12 @@ button:hover{
     height: 6rem;
 }
 .text{
-    width: 36rem;
+    max-width: 36rem;
     padding: 0 10rem;
     text-align: center;
 }
 .svg{
-    width: 36rem;
+    max-width: 36rem;
     padding: 1rem 8rem;
 }
 .third{
@@ -105,15 +104,15 @@ button:hover{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 20rem;
+    min-height: 20rem;
 }
 .fourth{
-    width: 36rem;
+    max-width: 36rem;
     padding: 3rem 10rem 3rem 6rem;
     text-align: left;
 }
 .fifth{
-    width: 36rem;
+    max-width: 36rem;
     padding: 3rem 6rem;
 }
 .cnt{
