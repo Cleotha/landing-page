@@ -1,5 +1,7 @@
-
 body{
+    background-color: white;
+}
+.body{
     background-color: hsl(207, 100%, 98%);
     width: 75rem;
     margin: 20px auto;
@@ -18,11 +20,12 @@ body{
     margin-top: 20px;
     margin-right: 30px;
 }
-h3{
+h3, h1{
     text-transform: capitalize;
     color: hsl(192, 100%, 9%);
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 p{
     color: hsl(192, 100%, 9%);
@@ -37,7 +40,7 @@ button{
     height: 2rem;
     border-radius: 20px;
     background-color: hsl(322, 100%, 66%);
-    color: hsl(207, 100%, 98%);
+    color: white;
     border-style: none;
 }
 button:hover{
@@ -45,7 +48,7 @@ button:hover{
 }
 .hey{
     color: hsl(322, 100%, 66%);
-    background-color: hsl(207, 100%, 98%);
+    background-color: white;
     border: 1px solid hsl(322, 100%, 66%);
 }
 .first{
@@ -56,6 +59,7 @@ button:hover{
     flex-direction: row;
     justify-content: space-around;
     margin-top: 8rem;
+    margin-bottom: 5rem;
 }
 .screen{
     padding: 0 80px;
@@ -69,6 +73,19 @@ button:hover{
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 8rem;
+    padding-top: 8rem;
+    height: 25rem;
+    background: url('top1.svg') bottom no-repeat, url('top2.svg') top no-repeat;
+    background-size: 75rem 3rem;
+    background-color: hsl(240, 1%, 87%);
+}   
+.flow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 8rem;
+    padding-top: 2rem;
+    height: 6rem;
 }
 .text{
     width: 36rem;
@@ -77,7 +94,7 @@ button:hover{
 }
 .svg{
     width: 36rem;
-    padding: 0 10rem;
+    padding: 1rem 8rem;
 }
 .third{
     text-align: center;
@@ -91,20 +108,28 @@ button:hover{
 }
 .fourth{
     width: 36rem;
-    padding: 3rem 6rem;
+    padding: 3rem 10rem 3rem 6rem;
+    text-align: left;
 }
 .fifth{
     width: 36rem;
     padding: 3rem 6rem;
 }
+.cnt{
+    text-align: center;
+    padding: 1rem 5rem;
+}
 .color{
-    color: hsl(207, 100%, 98%);
+    color: white;
 }
 .submit{
     border-radius: 5px;
-    width: 6rem;
+    width: 7rem;
     height: 24px;
     border-style: none;
+}
+.btn{
+    margin-left: 2rem;
 }
 .flex{
     display: flex;
@@ -122,5 +147,6 @@ button:hover{
     margin-top: 20px;
 }
 .footer{
-    background-color: black;
+    background-size: 75rem 20rem;
+    background-color: #00252E;
 }
