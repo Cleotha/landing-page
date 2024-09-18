@@ -1,10 +1,8 @@
-body{
-    background-color: white;
-}
-.body{
+.container{
     background-color: hsl(207, 100%, 98%);
     display: block;
     margin: auto;
+    width: 100%;
 }
 .heading{
     display: flex;
@@ -36,7 +34,7 @@ p{
     margin-bottom: 3rem;
 }
 button{
-    width: 11rem;
+    width: 20%;
     height: 2rem;
     border-radius: 20px;
     background-color: hsl(322, 100%, 66%);
@@ -50,86 +48,106 @@ button:hover{
     color: hsl(322, 100%, 66%);
     background-color: white;
     border: 1px solid hsl(322, 100%, 66%);
+    width: 100%;
 }
 .first{
-    margin-left: 32rem;
+    margin-left: 40%;
 }
 .second{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 8rem;
-    margin-bottom: 5rem;
 }
 .screen{
-    padding: 0 80px;
-    margin-bottom: 6rem;
+    padding: 0 10%;
+    width: 80%;
 }
 .header{
     margin-bottom: 6rem;
 }
 .about{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-bottom: 8rem;
-    padding-top: 8rem;
-    min-height: 26rem;
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 7em;
+    min-height: 25rem;
     background: url('top1.svg') bottom no-repeat, url('top2.svg') top no-repeat;
-    background-size: 100% 6%;
+    background-size: 100% 5rem;
     background-color: hsl(240, 1%, 87%);
 }   
+@media(min-width: 760px) {
+    .about{
+        gap: 10rem;
+        grid-template-columns: 40rem 1fr 1fr;
+        padding-bottom: 0;
+        padding-top: 7rem;
+    }
+}
 .flow{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-bottom: 8rem;
-    padding-top: 2rem;
-    height: 6rem;
+    display: grid;
+    gap: 1rem;
+    min-height: 2rem;
+}
+@media(min-width: 760px) {
+    .flow{
+        gap: 7rem;
+        grid-template-columns: 40rem 1fr 1fr;
+        padding-bottom: 0;
+    }
 }
 .text{
-    max-width: 36rem;
-    padding: 0 10rem;
+    padding: 10% 30%;
     text-align: center;
 }
-.svg{
-    max-width: 36rem;
-    padding: 1rem 8rem;
+.texting{
+    text-align: center;
+}
+.convo{
+    width: 20rem; 
+    min-height: 5rem; 
+    padding-left: 5rem;
 }
 .third{
     text-align: center;
-    margin-bottom: 15rem;
+    margin-bottom: 10rem;
 }
 .foot{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    min-height: 20rem;
+    display: grid;
+    gap: 1rem;
+}
+@media(min-width: 760px) {
+    .foot{
+        gap: 1rem;
+        grid-template-columns: 50% 1fr 1fr;
+    }
 }
 .fourth{
-    max-width: 36rem;
-    padding: 3rem 10rem 3rem 6rem;
+    width: 80%;
+    padding: 3rem 0 3rem 1rem;
     text-align: left;
 }
 .fifth{
-    max-width: 36rem;
-    padding: 3rem 6rem;
+    width: 80%;
+    padding: 3rem 1rem 3rem 1rem;
 }
 .cnt{
-    text-align: center;
-    padding: 1rem 5rem;
+    text-align: left;
 }
 .color{
     color: white;
+    text-align: left;
 }
 .submit{
     border-radius: 5px;
-    width: 7rem;
+    width: 35%;
     height: 24px;
     border-style: none;
 }
 .btn{
-    margin-left: 2rem;
+    display: flex;
+    flex-direction: row;
 }
 .flex{
     display: flex;
@@ -137,7 +155,6 @@ button:hover{
 }
 .icon{
     margin-left: 6rem;
-    margin-bottom: 10rem;
 }
 .fa{
     padding-right: 2rem;
@@ -147,6 +164,6 @@ button:hover{
     margin-top: 20px;
 }
 .footer{
-    background-size: 75rem 20rem;
+    background-size: 100%;
     background-color: #00252E;
 }
