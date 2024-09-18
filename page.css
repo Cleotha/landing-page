@@ -32,6 +32,7 @@ body{
 .button{
     margin-top: 20px;
     margin-right: 30px;
+    margin-left: 3rem;
 }
 h3, h1{
     text-transform: capitalize;
@@ -90,7 +91,7 @@ button:hover{
     min-height: 20rem;
     background: url('top1.svg') bottom no-repeat, url('top2.svg') top no-repeat;
     background-size: 100% 5rem;
-    background-color: hsl(240, 1%, 87%);
+    background-color: hsl(0, 8%, 95%);
 }   
 @media(min-width: 760px) {
     .about{
