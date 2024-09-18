@@ -1,8 +1,14 @@
+body{
+    
+    width: 100%;
+}
 .container{
     background-color: hsl(207, 100%, 98%);
     display: block;
     margin: auto;
-    width: 100%;
+}
+.lorem{
+    width: 10rem;
 }
 .heading{
     display: flex;
@@ -70,9 +76,9 @@ button:hover{
     display: grid;
     gap: 1rem;
     margin-bottom: 5rem;
-    padding-top: 5rem;
-    padding-bottom: 7em;
-    min-height: 25rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    min-height: 20rem;
     background: url('top1.svg') bottom no-repeat, url('top2.svg') top no-repeat;
     background-size: 100% 5rem;
     background-color: hsl(240, 1%, 87%);
@@ -81,7 +87,7 @@ button:hover{
     .about{
         gap: 10rem;
         grid-template-columns: 40rem 1fr 1fr;
-        padding-bottom: 0;
+        padding-bottom: 7rem;
         padding-top: 7rem;
     }
 }
@@ -130,7 +136,12 @@ button:hover{
 }
 .fifth{
     width: 80%;
-    padding: 3rem 1rem 3rem 1rem;
+    padding: 0 0 4rem 1rem;
+}
+@media(min-width:760px) {
+    .fifth{
+        padding: 3rem 1rem 3rem 3rem;
+    }
 }
 .cnt{
     text-align: left;
