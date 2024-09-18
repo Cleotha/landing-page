@@ -100,7 +100,7 @@ button:hover{
     .flow{
         gap: 7rem;
         grid-template-columns: 40rem 1fr 1fr;
-        padding-bottom: 0;
+        padding-bottom: 3rem;
     }
 }
 .text{
@@ -113,7 +113,7 @@ button:hover{
 .convo{
     width: 20rem; 
     min-height: 5rem; 
-    padding-left: 5rem;
+    padding-left: 2rem;
 }
 .third{
     text-align: center;
